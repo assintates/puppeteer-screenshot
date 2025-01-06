@@ -7,5 +7,8 @@
   "dependencies": {
     "chrome-aws-lambda": "5.2.1",
     "puppeteer-core": "5.2.1"
+  },
+  "scripts": {
+  "postinstall": "apt-get update && apt-get install -y wget gnupg libnss3 libxss1 libasound2 libatk1.0-0 libatk-bridge2.0-0 libcups2 fonts-liberation"
   }
 }
